@@ -153,6 +153,18 @@ const WeddingCountdown = () => {
           />
         </motion.div>
 
+        {/* Hashtag in corner */}
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: showContent ? 1 : 0, x: showContent ? 0 : -20 }}
+          transition={{ duration: 0.8, delay: 1 }}
+          className="absolute top-4 left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 z-20"
+        >
+          <p className="text-white/80 text-sm sm:text-base md:text-lg font-light tracking-wider">
+            #RutVi
+          </p>
+        </motion.div>
+
         {/* Hero Content */}
         <motion.div 
           initial={{ opacity: 0 }}

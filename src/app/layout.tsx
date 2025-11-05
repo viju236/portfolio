@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
+// import Navigation from "@/components/Navigation";
+// import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Vijay Patil | Software Engineer & Scrum Master",
-  description: "Full Stack Developer with 6.5+ years of experience at Siemens. Specializing in Vue.js, Node.js, Angular, Spring Boot, and .NET. Currently working as Scrum Master leading agile teams.",
+  title: "Our Wedding Journey | Vijay & [Partner Name]",
+  description: "Join us in celebrating our special day on November 25, 2025 at 12:35 PM. Counting down to our wedding!",
 };
 
 export default function RootLayout({
@@ -19,11 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
-        <Navigation />
+        {/* Navigation commented out for wedding landing page */}
+        {/* <Navigation /> */}
         <main className="min-h-screen">
           {children}
         </main>
-        <Footer />
+        {/* Footer commented out for wedding landing page */}
+        {/* <Footer /> */}
       </body>
     </html>
   );
