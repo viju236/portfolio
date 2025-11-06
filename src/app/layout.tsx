@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Our Wedding Journey | Vijay & [Partner Name]",
+  title: "Our Wedding Journey | Vijay & Rutuja",
   description: "Join us in celebrating our special day on November 25, 2025 at 12:35 PM. Counting down to our wedding!",
 };
 
